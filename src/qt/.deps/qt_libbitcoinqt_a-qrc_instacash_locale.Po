@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_instacash_locale.o: qt/qrc_instacash_locale.cpp
