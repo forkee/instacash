@@ -75,7 +75,7 @@ bool CMasternodeConfig::read(std::string& strErr)
 		strErr = _("Invalid port detected in masternode.conf") + "\n" +
                          strprintf(_("Port: %d"), port) + "\n" +
                          strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
-                         strprintf(_("(must be %d for mainnet)"), mainnetDefaultPort);
+                         _("(must be 46200 for mainnet)");
                 streamConfig.close();
                 return false;
             }
