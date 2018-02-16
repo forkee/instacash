@@ -4,6 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 // clang-format off
+#include "net.h"
 #include "netbase.h"
 #include "masternodeconfig.h"
 #include "util.h"
